@@ -44,18 +44,6 @@ const Header: NextPage<Props> = (props) => {
     />
   </a>
 </p>
-      <h1 className="title">{props.title}</h1>
-      <Link href={"/"} passHref>
-        <div className="icon">
-          <img
-            src={`/images/${props.share ? "share" : "plus"}.svg`}
-            alt="Share | Create"
-            width="30"
-            height="30"
-            onClick={share}
-          />
-        </div>
-      </Link>
     </header>
   );
 };
