@@ -37,6 +37,7 @@ const Header: NextPage<Props> = (props) => {
       <p>
         <img
           src="https://ik.imagekit.io/pngserver/dhruv-ads.png"
+          <Link href={"https://ik.imagekit.io/pngserver/dhruv-ads.png"} passHref>
           className="upilogo"
           width="350"
           alt="Upi Icon"
