@@ -34,24 +34,6 @@ const Header: NextPage<Props> = (props) => {
 
   return (
     <header className="header">
-      // Define a function to perform the redirection
-function redirectToPage() {
-  // Replace 'your-target-url' with the URL you want to redirect to
-  window.location.href = 'https://google.vom';
-}
-
-// Set a timeout for 30 seconds (30,000 milliseconds)
-const inactivityTimeout = setTimeout(redirectToPage, 30000);
-
-// Add event listeners to reset the timeout on user interaction
-document.addEventListener('mousemove', () => {
-  clearTimeout(inactivityTimeout); // Reset the timeout on mouse movement
-});
-
-document.addEventListener('keydown', () => {
-  clearTimeout(inactivityTimeout); // Reset the timeout on keypress
-});
-
       <p>
   <a href="https://google.com">
     <img
