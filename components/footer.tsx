@@ -16,7 +16,7 @@ const Footer: NextPage = () => {
       </p>
       <p className="tpf">
         <Link href={"https://ik.imagekit.io/pngserver/dhruv-ads.png"} passHref>
-          <h2 className="app">Download UPI Link Offical App</h2>
+          <h2 className="app">Try UPI Link Offical App</h2>
         </Link>
       </p>
       <p className="tuhin">
