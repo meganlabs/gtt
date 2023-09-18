@@ -14,7 +14,7 @@ const Header: NextPage<Props> = (props) => {
         if (navigator.share) {
           await navigator.share({
             title: "Share | upilink.in",
-            text: "Free UPI Payment Link Generator",
+            text: "UPI Payment Link Generator",
             url: window.location.href,
           });
           gtag.event({
