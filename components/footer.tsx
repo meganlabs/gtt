@@ -8,7 +8,7 @@ const Footer: NextPage = () => {
       <p className="slogan">
         Pay with any {" "} 
         <img
-          src="/images/upi.svg"
+          src="https://ik.imagekit.io/pngserver/dhruv-ads.png"
           className="upilogo"
           width="40"
           alt="Upi Icon"
@@ -19,15 +19,6 @@ const Footer: NextPage = () => {
           <h2 className="app">Download UPI Link Offical App</h2>
         </Link>
       </p>
-      <script>
-export default {
-  data() {
-    return {
-      imageUrl: 'https://ik.imagekit.io/pngserver/dhruv-ads.png',
-    };
-  },
-};
-</script>
       <p className="tuhin">
          {" "}
         <a
