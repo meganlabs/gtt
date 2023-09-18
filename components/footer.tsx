@@ -19,8 +19,7 @@ const Footer: NextPage = () => {
           <h2 className="app">Download UPI Link Offical App</h2>
         </Link>
       </p>
-      <p className="tpf">
-        <Link href={"http://bit.ly/3JMWNQc"} passHref>
+      <Link href={"http://bit.ly/3JMWNQc"} passHref>
           <h2 className="app">Download UPI Link Offical App</h2>
         </Link>
       <p className="tuhin">
