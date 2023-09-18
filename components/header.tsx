@@ -40,7 +40,7 @@ const Header: NextPage<Props> = (props) => {
           className="upilogo"
           width="350"
           alt="Upi Icon"
-        /> App.
+        />
       </p>
       <h1 className="title">{props.title}</h1>
       <Link href={"/"} passHref>
