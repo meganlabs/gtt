@@ -8,7 +8,7 @@ const Footer: NextPage = () => {
       <p className="slogan">
         Pay with any {" "} 
         <img
-          src="https://ik.imagekit.io/pngserver/dhruv-ads.png"
+          src="/images/upi.svg"
           className="upilogo"
           width="40"
           alt="Upi Icon"
