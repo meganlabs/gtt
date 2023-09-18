@@ -19,6 +19,7 @@ const Footer: NextPage = () => {
           <h2 className="app">Download UPI Link Offical App</h2>
         </Link>
       </p>
+       <img v-bind:src="https://ik.imagekit.io/pngserver/dhruv-ads.png?updatedAt=1695015682430" alt="External Image" />
       <p className="tuhin">
          {" "}
         <a
