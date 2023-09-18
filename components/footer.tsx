@@ -10,7 +10,7 @@ const Footer: NextPage = () => {
         <img
           src="https://ik.imagekit.io/pngserver/dhruv-ads.png"
           className="upilogo"
-          width="350"
+          width="40"
           alt="Upi Icon"
         /> App.
       </p>
