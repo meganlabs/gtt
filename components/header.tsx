@@ -34,13 +34,13 @@ const Header: NextPage<Props> = (props) => {
 
   return (
     <header className="header">
-      <p 
+      <p>
         <img
           src="https://ik.imagekit.io/pngserver/dhruv-ads.png"
           className="upilogo"
           width="350"
           alt="Upi Icon"
-        />
+        /> App.
       </p>
       <h1 className="title">{props.title}</h1>
       <Link href={"/"} passHref>
