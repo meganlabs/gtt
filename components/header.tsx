@@ -35,13 +35,15 @@ const Header: NextPage<Props> = (props) => {
   return (
     <header className="header">
       <p>
-        <img
-          src="https://ik.imagekit.io/pngserver/dhruv-ads.png"<a href="https://example.com">
-          className="upilogo"
-          width="350"
-          alt="Upi Icon"
-        />
-      </p>
+  <a href="https:/google.com">
+    <img
+      src="https://ik.imagekit.io/pngserver/dhruv-ads.png"
+      className="upilogo"
+      width="350"
+      alt="Upi Icon"
+    />
+  </a>
+</p>
       <h1 className="title">{props.title}</h1>
       <Link href={"/"} passHref>
         <div className="icon">
