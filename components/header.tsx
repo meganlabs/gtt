@@ -1,6 +1,7 @@
 import type { NextPage } from "next";
 import Link from "next/link";
 import * as gtag from "../analytic/gtag";
+import { useEffect } from "react"; // Import useEffect from React
 
 interface Props {
   title?: string;
